@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"> 
+	<title>cartelera</title>
+  <style>
+#peli, #trailer, #info{display: inline-block;}
+#info{width: 500px;}
+#peli {opacity: 0.8;width: 100px; transition: opacity 1s;}
+#peli:hover {opacity: 1;}
+#trailer a{text-decoration: none;color: white;}
+#trailer{
+font-family: fantasy;
+padding: 15px 20px;
+display: inline-block;
+background: #91b4c0;
+border-radius: 6px;
+font-weight: bold;
+text-shadow: 1px 1px 2px #464646;
+cursor: pointer;
+}
+#trailer:hover{background: #66cdaa;}
+header, h3{background-color: #000;color: #fff;}
+
+#reparto div{  border: 1px solid ;border-radius:5px; display: inline-block;}
+.CareyMulligan:hover { border-bottom: 5px solid blue;}
+footer{text-align:center; background-color:orange; color:#000;}
+  </style>
+</head>
+<body>
+ <!-- Header o Cabecera de la web -->
+<header>
+  <img src="cartelera.jpg" alt="logo">
+</header>
+ <!-- Contenedor para el contenido de en Medio de mi Página de la web -->
+<div id='contenedor'>
+    <!-- Contenido en la parte de en Medio de mi Página de la web -->
+  <section class="contenido_medio">
+    <img src="sufragistas.jpg" alt="" id="peli">
+    <article id="info">
+      <h3>Información</h3>
+      <pre>
+      Año:  
+      Título original: 
+      País: 
+      Duración:  minutos
+      Género: Biografía, Drama, Thriller
+      Estudios: Trademark Films
+      Distribuidora:  <!-- értice 360 -->
+      Calificación:<!--  No recomendado menores de 7 años -->
+      Fechas de estreno
+      2015
+      Ranking
+      Ranking: 60 de 15,002 películas (sube 117)
+      <!-- Contenido de la parte Izquierda de mi Página de la web -->
+      </pre>
+      <button id="trailer"><a href="https://www.youtube.com/watch?v=EYQoyv-U1i0">Ver tráiler</a></button> 
+     </article>
+  </section> 
+  <h3>Sinopsis</h3>
+  Directora: Sarah Gavron
+  <!-- Contenido de Reparto -->
+  <article id="reparto">
+    <h3>Reparto Las Sufragistas  (Red Joan)Reparto completo »</h3>
+    <div class="CareyMulligan">
+      <img src="CareyMulligan.jpg" alt="CareyMulligan">
+      <p>Carey Mulligan</p>
+    </div>
+    <div><img src="" alt="">Helena Bnham</div>
+    <div><img src="" alt=""></div>
+  </article>
+  <!-- Contenido de Otras Pelis iguales -->
+  <article id="OtrasPelisIguales">
+      <h3>Otras Pelis iguales</h3>
+      <div><img src="" alt=""><h3>El color púrpura</h3></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+  </article>
+</div>
+ <!-- Footer o Pie de Página de la web -->
+<footer></footer>
+</body>
+</html>
+
+
+
